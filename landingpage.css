@@ -1,0 +1,198 @@
+/* Reset default browser styles */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root{
+    --primary-color:#12ac8e;
+    background-color: #0d846c;
+    background-color: #fb923c;
+    --text-dark: #333333;
+    --white: #ffffff;
+    --max-width: 1200px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.4;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Section */
+header {
+    background-color: var(--primary-color);
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.back {
+    background-image: url('images/bl.jpg');
+    background-size: flex;
+    background-position: center;
+    color: purple;
+    text-align: center;
+    padding: 100px 20px;
+    height: 450px;
+}
+
+.back h2 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.back p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.back .cta-btn {
+    background-color: plum;
+    color: #333;
+    padding: 12px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.back .cta-btn:hover {
+    background-color: purple;
+}
+
+.about {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #0d846c;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    width: 60%;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-image:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* Services Section */
+.services {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2.3rem;
+    margin-bottom: 40px;
+    color: #0d846c;
+}
+
+.service-box {
+    display: inline-block;
+    width: 25%;
+    margin: 20px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service-box:hover{
+    transform:scale(1.2);
+    cursor: pointer;
+}
+.service-box img {
+    width: 100%;
+    border-radius: 8px;
+    height: 170px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+
+.service-box h3 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Footer Section */
+footer {
+    background-color:#12ac8e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1rem;
+}
